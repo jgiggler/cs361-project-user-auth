@@ -40,7 +40,6 @@ def signup():
         for line in users:
             
             user_data = json.loads(line)
-            print(user_data)
             
             if username in user_data:
                 print("username found")
